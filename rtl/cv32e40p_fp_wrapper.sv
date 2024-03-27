@@ -97,7 +97,7 @@ module cv32e40p_fp_wrapper
   fpnew_top #(
       .Features      (FPU_FEATURES),
       .Implementation(FPU_IMPLEMENTATION),
-      .PulpDivsqrt   (1'b0),
+      .PulpDivsqrt   (1'b1),
       .TagType       (logic)
   ) i_fpnew_bulk (
       .clk_i         (clk_i),
